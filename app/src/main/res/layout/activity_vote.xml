@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5">
+    <LinearLayout
+        android:id="@+id/ll_vote1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar2" />
+
+        <TextView
+            android:id="@+id/tv_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/gyv"
+            android:textSize="@dimen/text32dp"
+            android:textColor="@color/putih"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_vote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin16dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/vote"
+            android:textSize="@dimen/text_costume26dp"
+            android:textColor="@color/putih"
+            android:background="@null"/>
+    </LinearLayout>
+</ScrollView>

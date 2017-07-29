@@ -1,0 +1,147 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".view.main.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_dashboard_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:measureWithLargestChild="false"
+        android:orientation="vertical"
+        android:background="@drawable/background2">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/layout_toolbar" />
+
+        <ScrollView
+            android:id="@+id/sv_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/ll_dashboard_2">
+                <TextView
+                    android:id="@+id/tv_dashboard"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin16dp"
+                    android:text="@string/am_dashboard"
+                    android:textSize="@dimen/text32dp"
+                    android:gravity="right"
+                    android:textColor="@color/putih"/>
+                <LinearLayout
+                    android:id="@+id/ll_dashboard_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:id="@+id/ll_dashboard_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1">
+
+
+                        <Button
+                            android:id="@+id/btn_selectionCandidateprofile"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="@dimen/margin128dp"
+                            android:layout_height="@dimen/margin128dp"
+                            android:layout_margin="@dimen/margin16dp"
+                            android:background="@drawable/dashboard1"
+                            android:elevation="@dimen/margin8dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_selectionCandidateProfile"
+                            android:layout_marginRight="@dimen/margin16dp"
+                            android:layout_marginLeft="@dimen/margin16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textColor="@color/putih"
+                            android:textSize="@dimen/text16dp"
+                            android:text="@string/profil"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_dashboard_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_weight="1">
+                        <Button
+                            android:id="@+id/btn_viewQuickCount"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_width="@dimen/margin128dp"
+                            android:layout_height="@dimen/margin128dp"
+                            android:layout_margin="@dimen/margin16dp"
+                            android:background="@drawable/dashboard2"
+                            android:elevation="@dimen/margin8dp"/>
+                        <TextView
+                            android:id="@+id/tv_viewCuickCount"
+                            android:layout_marginRight="@dimen/margin16dp"
+                            android:layout_marginLeft="@dimen/margin16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textColor="@color/putih"
+                            android:textSize="@dimen/text16dp"
+                            android:text="@string/quick_count"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_dashboard_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/btn_vote"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="128dp"
+                        android:layout_height="128dp"
+                        android:layout_margin="@dimen/margin16dp"
+                        android:background="@drawable/dashboard3"
+                        android:elevation="@dimen/margin8dp"/>
+                    <TextView
+                        android:id="@+id/tv_vote"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textColor="@color/putih"
+                        android:textSize="@dimen/text16dp"
+                        android:text="@string/vote"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/layout_header"
+        app:menu="@menu/item_navigasi" />
+</android.support.v4.widget.DrawerLayout>

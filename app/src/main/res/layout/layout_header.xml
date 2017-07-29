@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/biru"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_layout_header1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_gambarHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:padding="@dimen/margin16dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:elevation="@dimen/margin4dp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_layout_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tv_namaAkun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_marginBottom="@dimen/margin8dp"
+            android:textColor="@color/putih"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_costume24dp"/>
+
+        <TextView
+            android:id="@+id/tv_emailAkun"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@color/putih"
+            android:textSize="@dimen/text16dp"/>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

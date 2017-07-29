@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/sv_quickCount"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ll_quickCount1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background7">
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/layout_toolbar" />
+            <TextView
+                android:id="@+id/tv_quickcount1"
+                android:textColor="@color/putih"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quick_Count"
+                android:textSize="@dimen/text_costume20dp"
+                android:layout_margin="@dimen/margin16dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_quick_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

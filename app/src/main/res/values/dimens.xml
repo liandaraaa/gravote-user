@@ -1,0 +1,38 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="indeterminate_progress_size">32dp</dimen>
+
+    <dimen name="text8sp">8sp</dimen>
+    <dimen name="text16dp">16sp</dimen>
+    <dimen name="text32dp">32sp</dimen>
+    <dimen name="text64dp">64sp</dimen>
+    <dimen name="text128dp">128sp</dimen>
+    <dimen name="text256dp">256sp</dimen>
+
+    <dimen name="text_costume20dp">20dp</dimen>
+    <dimen name="text_costume22dp">22dp</dimen>
+    <dimen name="text_costume24dp">24dp</dimen>
+    <dimen name="text_costume26dp">26dp</dimen>
+    <dimen name="text_costume200dp">200dp</dimen>
+
+    <dimen name="margin1dp">1dp</dimen>
+    <dimen name="margin2dp">2dp</dimen>
+    <dimen name="margin4dp">4dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="margin16dp">16dp</dimen>
+    <dimen name="margin32dp">32dp</dimen>
+    <dimen name="margin64dp">64dp</dimen>
+    <dimen name="margin128dp">128dp</dimen>
+    <dimen name="margin256dp">256dp</dimen>
+
+
+</resources>

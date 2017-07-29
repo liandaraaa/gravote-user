@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">GRAVOTE</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip"></string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Makanan!</string>
+    <string name="slide_1_desc">Dengan mudah mendapatkan makanan dar Restoran favorit</string>
+
+    <string name="slide_2_title">Tiket Film</string>
+    <string name="slide_2_desc">Pesan tiket untk teman dan kelurarga!</string>
+
+    <string name="slide_3_title">Banyak Diskon</string>
+    <string name="slide_3_desc">Diskon terbaik disetiap penawaran yang kita berikan</string>
+
+    <string name="slide_4_title">Jalan-Jalan</string>
+    <string name="slide_4_desc">Pesan transportasi dan penginapan untuk setiap perjalanan anda</string>
+
+    <string name="play_again_desc">Untuk melihat layar introslider, pergi Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="am_dashboard">DASHBOARD</string>
+    <string name="profil">Selection Candidate Profile</string>
+    <string name="candidate">Candidate Profile</string>
+    <string name="quick_count">View Quick Count</string>
+    <string name="vote">VOTE!</string>
+    <string name="gyv">GRAB YOUR VOTE!</string>
+    <string name="logout">LOGOUT</string>
+
+    <string name="ev_thank">Thank you for using your vote.</string>
+    <string name="back">BACK TO DASHBOARD</string>
+
+    <string name="calon_ketua">Calon Ketua</string>
+    <string name="nama_ketua1">aku</string>
+    <string name="nama_ketua2">dia</string>
+
+    <string name="calon_wakil">Calon Wakil</string>
+    <string name="nama_wakil1">kamu iya kamu jadi wakil</string>
+    <string name="nama_wakil2">dia dengan yang lain</string>
+
+    <string name="visi">Visi</string>
+    <string name="isivisi1">MENUJU PERGURUAN TINGGI BADAN HUKUM, INOVATIF, BERDAYA SAING YANG BERIDENTITAS BELA NEGARA TAHUN 2025.
+TOWARDS AUTONOMOUS, INOVATIVE, AND COMPETITIVE UNIVERSITY IN THE YEAR 2025</string>
+    <string name="isivisi2"></string>
+
+    <string name="misi">Misi</string>
+    <string name="isimisi1"></string>
+    <string name="isimisi2"></string>
+
+    <string name="program_unggulan">Program Unggulan</string>
+    <string name="isipu1"></string>
+    <string name="isipu2"></string>
+
+    <string name="log_id">ID</string>
+    <string name="isi_username"></string>
+    <string name="log_password">Password</string>
+    <string name="isi_password"></string>
+    <string name="but_login">Log In</string>
+    <string name="but_cancel">CANCEL</string>
+
+
+    <string name="candidate1">candidate 1</string>
+    <string name="quick_nomor1">00,00%</string>
+    <string name="candidate2">Nomor 2</string>
+    <string name="quick_nomor2">00,00%</string>
+
+    <string name="current_password">current password</string>
+    <string name="new_password">new password</string>
+    <string name="password_confirmation">current password</string>
+
+    <string name="name">admin</string>
+    <string name="email">admin@gmail.com</string>
+
+
+    <string name="ays">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="navigation_view_item_1">Change Password</string>
+    <string name="navigation_view_item_2">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

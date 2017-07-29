@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_profilKandidat2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/btn_candidate"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="@dimen/text_costume200dp"
+        android:layout_height="@dimen/text_costume200dp"
+        android:layout_margin="@dimen/margin16dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:elevation="@dimen/margin4dp"/>
+
+    <TextView
+        android:id="@+id/tv_candidate"
+        android:textColor="@color/putih"
+        android:layout_marginBottom="@dimen/margin8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_costume20dp"
+        android:text="@string/candidate1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>

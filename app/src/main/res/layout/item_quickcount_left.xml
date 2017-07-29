@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_quickCount2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_candidate1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_margin="@dimen/margin16dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:elevation="@dimen/margin4dp"/>
+
+    <TextView
+        android:id="@+id/tv_quickCount1"
+        android:layout_weight="1"
+        android:textColor="@color/putih"
+        android:layout_marginBottom="@dimen/margin8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/text32dp"
+        android:text="@string/quick_nomor1"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+</LinearLayout>

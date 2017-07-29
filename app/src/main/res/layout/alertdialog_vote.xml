@@ -1,0 +1,67 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/biruTua"
+    >
+    <LinearLayout
+        android:id="@+id/ll_vote2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ll_vote3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_margin="@dimen/margin16dp"
+                android:id="@+id/tv_areYouSure"
+                android:textColor="@color/putih"
+                android:textSize="@dimen/text32dp"
+                android:gravity="center|bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Are you sure?" />
+            <TextView
+                android:layout_margin="@dimen/margin16dp"
+                android:id="@+id/tv_youCantChange"
+                android:textColor="@color/putih"
+                android:textSize="@dimen/text16dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can't change your vote once you click yes."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_vote4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_voteYes"
+                android:background="@null"
+                android:textColor="@color/biruCerah"
+                android:textSize="@dimen/text_costume26dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/yes"/>
+            <Button
+                android:id="@+id/btn_voteNo"
+                android:background="@null"
+                android:textColor="@color/abuAbu"
+                android:textSize="@dimen/text_costume26dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/no"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
